@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url("Background\ Image.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background:transparent;
+    color:white;
+}
+.navbar h1{
+    margin-left: 2rem;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style:normal;
+}
+#city-input{
+    margin-left:15rem;
+    display: flex;
+    width:30rem;
+    height: 3rem;
+    border-radius: 5rem;
+    margin-top:7px;
+    background-color:white;
+    opacity: 0.5;
+    border:none;
+    color: solid black;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+i{
+    color:black;
+    margin-left:-2rem;
+    opacity:0.7;
+}
+.cont1{
+    background-color:white;
+    opacity: 0.4;
+    color:black;
+    width:20rem;
+    height:15rem;
+    margin-left: 70vw;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-size: 4rem;
+    display: inline-block;
+}
+img{
+    height:170px;
+    width:170px;
+}
+.name{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.image{
+    margin-top:0rem;
+    height:3rem;
+}
+.temp{
+    width:10rem;
+    margin-left: 10rem;
+}
+.hide{
+    display: none;
+}
+.details{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    height:15rem;
+    width:40rem;
+}
+.cont2{
+    background-color: white;
+}
