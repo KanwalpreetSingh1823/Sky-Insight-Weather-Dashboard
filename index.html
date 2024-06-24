@@ -13,24 +13,29 @@
 <body>
     <div class="navbar">
         <h1>Sky Insight</h1>
-        <label for="cityInput">
-            <input type="text" id="city-input" placeholder="Enter your city..">
-        </label><i class="fa-solid fa-magnifying-glass"></i>
+        <div class="search">
+            <label for="cityInput">
+                <input type="text" id="city-input" placeholder="Enter your city..">
+            </label><i class="fa-solid fa-magnifying-glass"></i>
+        </div>
     </div>
-    <div class="cont1">
-        <div class="name"></div>
-        <div class="image"><img src="" alt="fetching.."></div>
-        <div class="temp"></div>
-    </div>
-    <div class="details">
-        <div class="cont2">
-            <ul>
-                <li>feels like</li>
-                <li>high/low temp.</li>
-                <li>humidity</li>
-                <li>wind-speed</li>
-                <li>sunrise and sunset time</li>
-            </ul>
+    <div class="display-box">
+        <div class="cont1 hide">
+            <div class="name"></div>
+            <div class="image"><img src="" alt=""></div>
+            <div class="temp"></div>
+            <div class="status"></div>
+        </div>
+        <div class="details onLoad">
+            <div class="cont2">
+                <ul>
+                    <li id="feel-like">feels like :  <span id="dash1"> _______________</span></li>
+                    <li>max/min temp :   <span id="dash2a">______</span> / <span id="dash2b">______</span></li>
+                    <li>humidity :   <span id="dash3">__________</span></li>
+                    <li>wind-speed :   <span id="dash4">___________</span></li>
+                    <li>Visibility :   <span id="dash5">____________</span></li>
+                </ul>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
