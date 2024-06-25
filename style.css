@@ -160,7 +160,7 @@ li{
     .cont1{
         height:13rem;
         width:18rem;
-        margin-top: 0.5rem;
+        margin-top: 4.5rem;
         font-size: 2rem;
         margin-left: 0px;
         margin-right: -3px;
@@ -238,5 +238,10 @@ li{
         align-items: center;
         justify-content: center;
         margin-left: 25vw;
+    }
+}
+@media (min-width:1200px){
+    .search #city-input{
+        width:35rem;
     }
 }
