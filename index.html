@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sky Insight</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="navbar">
-        <h1>Sky Insight</h1>
-        <div class="search">
-            <label for="cityInput">
-                <input type="text" id="city-input" placeholder="Enter your city..">
-            </label><i class="fa-solid fa-magnifying-glass"></i>
-        </div>
+      <h1>Sky Insight</h1>
+      <div class="search">
+        <label for="cityInput">
+          <input
+            type="text"
+            id="city-input"
+            placeholder="Enter your city.."
+          /> </label
+        ><i class="fa-solid fa-magnifying-glass"></i>
+      </div>
     </div>
     <div class="display-box">
-        <div class="cont1 hide">
-            <div class="name"></div>
-            <div class="image"><img src="" alt=""></div>
-            <div class="temp"></div>
-            <div class="status"></div>
+      <div class="cont1 hide">
+        <div class="name"></div>
+        <div class="image"><img src="" alt="" /></div>
+        <div class="temp"></div>
+        <div class="status"></div>
+      </div>
+      <div class="details onLoad">
+        <div class="cont2">
+          <ul>
+            <li id="feel-like">
+              feels like : <span id="dash1"> _______________</span>
+            </li>
+            <li>
+              max/min temp : <span id="dash2a">______</span> /
+              <span id="dash2b">______</span>
+            </li>
+            <li>humidity : <span id="dash3">__________</span></li>
+            <li>wind-speed : <span id="dash4">___________</span></li>
+            <li>Visibility : <span id="dash5">____________</span></li>
+          </ul>
         </div>
-        <div class="details onLoad">
-            <div class="cont2">
-                <ul>
-                    <li id="feel-like">feels like :  <span id="dash1"> _______________</span></li>
-                    <li>max/min temp :   <span id="dash2a">______</span> / <span id="dash2b">______</span></li>
-                    <li>humidity :   <span id="dash3">__________</span></li>
-                    <li>wind-speed :   <span id="dash4">___________</span></li>
-                    <li>Visibility :   <span id="dash5">____________</span></li>
-                </ul>
-            </div>
-        </div>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
